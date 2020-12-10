@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <table width="30%" align="center">
+      <tr>
+        <td><a href="index.html">Home</a></td>
+        <td><a href="projects.html">My Projects</a></td>
+        <td><a href="contact.html">Contact Us</a></td>
+      </tr>
+    </table>
+    <h1>Contact Information</h1>
+    <p><strong>Email:</strong> arsalan@itpt.co.uk</p>
+    <p><strong>Tel:</strong> 0141 429 2922</p>
+    <p><strong>Website:</strong> <a href="https://www.itpt.co.uk">www.itpt.co.uk</a></p>
+
+<h2>Send us a Message:</h2>
+    <form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="get">
+
+      <label>Full Name</label>
+      <input type="text" name="full-name" required>
+      <br>
+      <label>Email</label>
+      <input type="email" name="email" value ="" required>
+      <br>
+      <label>Phone</label>
+      <input type="tel" name="phone" value ="" required>
+        <br>
+<label>Message</label>
+        <textarea name="Message" rows="2" cols="10"></textarea>
+<br>
+<label name="" for="">Choose a suitable day for the meeting:
+
+<label for="mon">Mon</label>
+<input type="checkbox" name="day" value="mon" id="mon">
+
+
+<label for="tue">Tue</label>
+<input type="checkbox" name="day" value="tue" id="tue">
+
+<label for="wed">Wed</label>
+<input type="checkbox" name="day" value="wed" id="wed">
+
+<label for="thur">Thur</label>
+<input type="checkbox" name="day" value="thur" id="thur">
+
+<label for="fri">Fri</label>
+<input type="checkbox" name="day" value="fri" id="fri">
+</label>
+<br>
+
+<label for="meeting-purpose">Choose the purpose of meeting:</label>
+<input list="services" id="meeting-purpose" name="services" />
+
+<datalist id="services">
+    <option value="Web Development">
+    <option value="Web Consultancy">
+    <option value="Training">
+
+</datalist>
+
+<br>
+<label for="">Meeting Office:</label>
+<label for="gla">Glasgow</label>
+<input type="radio" name="location" value="Glasgow" checked id="gla">
+
+<label for="ed">Edinburgh</label>
+<input type="radio" name="location" value="Edinburgh"  id="ed">
+
+<label for="dun">Dundee</label>
+<input type="radio" name="location" value="Dundee"  id="dun">
+
+<br>
+
+      <input type="submit" name="" >
+
+    </form>
+
+
+
+
+  </body>
+</html>
